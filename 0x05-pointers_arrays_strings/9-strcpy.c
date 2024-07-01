@@ -4,7 +4,6 @@
  * char *_strcpy - a funcrion that copies the string pointed to by src
  * @dest: copy to
  * @src: copy from
- *
  * Return: String
  */
 char *_strcpy(char *dest, char *src)
@@ -16,9 +15,9 @@ char *_strcpy(char *dest, char *src)
 	{
 		i++;
 	}
-	for (; x < 1 ; x++)
+	for (; x < i ; x++)
 	{
-		dest[i] = src[i];
+		dest[x] = src[x];
 	}
 	dest[i] = '\0';
 
